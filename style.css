@@ -1,0 +1,149 @@
+body {
+    background-color: #262626;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.clock {
+    color: white;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+}
+
+.menu {
+    align-items: center;
+    margin-top: 0;
+    line-height: 2vh;
+}
+
+.mt {
+    margin-bottom: 1vh;
+}
+
+button {
+    margin-bottom: 77vh;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+#egg {
+    width: 35%;
+}
+
+#se {
+    width: 10%;
+}
+
+#link {
+    width: 100%;
+}
+
+.black {
+    background-color: #262626;
+    color: white;
+}
+
+.fill {
+    width: 50%;
+    height: 75vh;
+}
+
+.text {
+    height: 4vh;
+}
+
+.t {
+    margin: 0;
+}
+
+button {
+    height: 4vh;
+}
+
+@media (min-width:1030px)
+{
+    #egg {
+        width: 20vh;
+    }
+
+    #link {
+        width: 10vh;
+    }
+
+    .button {
+        width:10vh;
+    }
+
+    #se {
+        width: 10vh;
+    }
+}
+
+@media (min-width:619) {
+    @media (max-width:1030) {
+        #egg {
+            height: 2vh;
+        }
+    }
+}
+
+.mdl-layout__drawer {
+    color: whitesmoke;
+    background-color: #262626 !important;
+    border-right: #262626 !important;
+    margin-left: -0.8vw;
+}
+
+.mdl-navigation__link {
+    color: whitesmoke !important;
+}
+
+.mdl-navigation__link:hover {
+    background-color: rgba(26,26,26) !important;
+}
+
+.mdl-layout__drawer-button {
+    cursor: context-menu;
+}
+
+.mdl-layout__header {
+    background-color: #262626;
+    color: whitesmoke;
+}
+
+i {
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.menutitle {
+    font-size: 1.5vh;
+}
+
+.headeraglin {
+    display: flex;
+    justify-content: space-between;
+}
+
+.headertitle {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
